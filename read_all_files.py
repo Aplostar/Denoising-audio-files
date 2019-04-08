@@ -4,8 +4,8 @@ import librosa.display
 import os
 import numpy as np
 
-clean_dir = "C:/Users/Arpit Pachauri/Desktop/Clean"
-noise_dir = "C:/Users/Arpit Pachauri/Desktop/Noise"
+clean_dir = "Clean"
+noise_dir = "Noise"
 arr = os.listdir(clean_dir)
 clean_arr = []
 noise_arr = []
